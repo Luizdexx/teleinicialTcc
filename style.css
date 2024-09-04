@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 12px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+.search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-btn {
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-btn i {
+    font-size: 20px;
+    color: #333;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icons button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: calc(100vh - 80px - 40px); /* 80px for header, 40px for footer */
+}
+
+.main-content {
+    flex: 2;
+    background-color: #ccc;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.side-content {
+    flex: 1;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.add-button {
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
